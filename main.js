@@ -1,4 +1,5 @@
 let header = document.querySelector('header');
+alert("Welcome to Cineflix")
 
 window.addEventListener('scroll', () =>{
     header.classList.toggle('shadow', window.scrollY > 0);
